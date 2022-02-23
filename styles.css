@@ -1,0 +1,131 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+}
+
+.container{
+    width:450px;
+    height: auto;
+    border-radius: 15px;
+    background: white;
+}
+
+.container__img{
+    border-radius: 15px 15px 0 0;
+}
+
+.container__h1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container__p{
+    width: 300px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 25px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-left: 75px;
+}
+
+.container__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: hsl(225, 100%, 98%);
+    height: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+
+.info__img{
+    height: 50px;
+    margin-left: -10px;
+}
+
+.info__plan{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    margin-left: -50px;
+}
+
+.info_price{
+    color: hsl(224, 23%, 55%);
+    margin-left: -50px;
+    margin-top: 10px;
+}
+
+a{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover{
+    color: hsl(245, 75%, 52%, 0.7);
+}
+
+.button{
+    color: white;
+    background: hsl(245, 75%, 52%);
+    width: 320px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 18px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background: hsl(245, 75%, 52%, 0.7);
+}
+
+.cancel{
+    color: hsl(224, 23%, 55%);
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+.attribution{
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 375px) {
+    
+
+    .container{
+        width:350px
+    }
+}
