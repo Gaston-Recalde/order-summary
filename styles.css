@@ -20,33 +20,34 @@ body{
 }
 
 .container{
-    width:450px;
+    max-width: 350px;
     height: auto;
     border-radius: 15px;
     background: white;
 }
 
 .container__img{
+    width: 100%;
     border-radius: 15px 15px 0 0;
 }
 
 .container__h1{
     color: hsl(223, 47%, 23%);
     font-weight: 900;
-    font-size: 25px;
+    font-size: 23px;
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .container__p{
-    width: 300px;
+    margin: 0 auto;
+    width: 275px;
     text-align: center;
     color: hsl(224, 23%, 55%);
     margin-bottom: 25px;
     line-height: 1.5;
     font-weight: 500;
-    margin-left: 75px;
 }
 
 .container__info{
@@ -56,8 +57,6 @@ body{
     align-items: center;
     background: hsl(225, 100%, 98%);
     height: 90px;
-    margin-left: 50px;
-    margin-right: 50px;
     border-radius: 15px;
 }
 
@@ -89,13 +88,14 @@ a:hover{
 }
 
 .button{
+    margin: 0 auto;
     color: white;
     background: hsl(245, 75%, 52%);
-    width: 320px;
+    width: 75%;
     border-radius: 10px;
     text-align: center;
     padding: 18px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-top: 25px;
 }
 
@@ -128,4 +128,14 @@ a:hover{
     .container{
         width:350px
     }
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
